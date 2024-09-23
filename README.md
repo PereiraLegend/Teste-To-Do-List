@@ -11,6 +11,17 @@ Banco de dados: PostgreeSQL
 
 Testes: PHPUnit
 
+### Configuração Inicial (.env): 
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
+
+
 ### Comandos: (Obs.: Fora as pastas que são diferentes, os dois projetos utilizam os mesmos comandos)
 
 Comando para inicializar as migrations: "php artisan migrate:fresh"
